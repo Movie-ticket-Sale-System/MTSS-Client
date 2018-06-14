@@ -5,6 +5,12 @@
 ## Build Setup
 
 ``` bash
+# clone repo
+git clone https://github.com/ZhangZekun/MTSS_Client.git
+
+# enter folder
+cd MTSS_Client/
+
 # install dependencies
 npm install
 
