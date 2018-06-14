@@ -4,9 +4,6 @@
       <v-header></v-header>
       <router-view></router-view>
     </div>
-    <div id="background-flower" class="background-bg">
-      <img src="../../assets/background/bg2.png" />
-    </div>
   </div>
 </template>
 
