@@ -78,7 +78,7 @@
       top:14.5%;
       font-size: 28px;
       font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-      color: orange;
+      color: #8F8FBD;
     }
     #all{
      width:60vw;
