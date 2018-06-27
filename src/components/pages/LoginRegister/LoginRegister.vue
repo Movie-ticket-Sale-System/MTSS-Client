@@ -9,6 +9,7 @@
         <input class="Login_input" id="Login_phone" type="text" title="手机号码" placeholder="手机号码">
         <input class="Login_input" id="Login_password" type="password" title="密码" placeholder="请输入密码">
         <button @click="login1()" id="Login_lbutton" class="Login_button">登录</button>
+        <button @click="changed()" class="Login_button">注册</button>
       </ul>
     </div>
     <div  v-if="register">
