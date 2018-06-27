@@ -17,12 +17,8 @@
             <img  class="image"v-bind:src="movie_list.now[2].imgUrl"/>
           </div>
         </router-link>
-        <router-link :to="{ name: 'MovDetail', params: { mov_id: movie_list.now[3].mov_id  } }">
-          <div id="post4" v-if="movie_list">
-            <img class="image" v-bind:src="movie_list.now[3].imgUrl"/>
-          </div>
-        </router-link>
-     
+
+
     </div>
     <div>
       <div id="title_font_2">{{ title2 }}</div>
@@ -90,7 +86,7 @@
 
 <script>
   import {getData} from "../../../service/getData.js"
-  export default { 
+  export default {
     name: 'mov-list',
     data() {
       return {
