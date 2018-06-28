@@ -157,7 +157,7 @@
           })
       }
     }
-  } 
+  }
 </script>
 
 <style>
@@ -194,7 +194,7 @@
     width: 70%;
     line-height: 10%;
     padding-left: 10px;
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.5em;
   }
   .Register_button {
       border: none;
@@ -238,19 +238,19 @@
   }
   #Login_phone {
     display: block;
-    
+
     margin-bottom: 5%;
   }
   #Login_password {
     display: block;
-    
+
     margin-bottom: 5%;
   }
   #Register_textul {
     display: inline-block;
     position: absolute;
     left: 50%;
-    top: 32%; 
+    top: 32%;
     text-align: right;
     color: #51514F;
     width: auto;
@@ -260,9 +260,9 @@
     display: block;
     height: 10%;
     vertical-align: bottom;
-    line-height: 10%; 
+    line-height: 10%;
     margin-bottom: 1em;
-    
+
     font-size: 18pt;
   }
    #Register_Errorul {
@@ -270,7 +270,7 @@
     display: block;
     position: absolute;
     left: 82%;
-    top: 30%; 
+    top: 30%;
     margin-left: 0px;
     padding-left: 0px;
     vertical-align: bottom;

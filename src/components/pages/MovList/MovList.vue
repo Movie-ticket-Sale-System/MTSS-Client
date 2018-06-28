@@ -22,7 +22,7 @@
             <img class="image" v-bind:src="movie_list.now[3].imgUrl"/>
           </div>
         </router-link>
-     
+
     </div>
     <div>
       <div id="title_font_2">{{ title2 }}</div>
@@ -90,7 +90,7 @@
 
 <script>
   import {getData} from "../../../service/getData.js"
-  export default { 
+  export default {
     name: 'mov-list',
     data() {
       return {
